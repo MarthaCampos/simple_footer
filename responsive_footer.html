@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Laguna</h1>
+        <img src="rodape_local.png" alt="">
+        <p>Rua Divinolândia de Minas, 307<br>
+            São Paulo, SP 03918-100</p>
+        <img src="rodape_mail.png" alt="">
+        <p>atendimento@lagunaexpress.com.br
+        </p>
+        <img src="rodape_whats.png" alt="">
+        <p>(11) 9-8201-8116
+        </p>
+        <div>
+        <img class="face" src="rodape_face.png" alt="">
+        <img src="rodape_insta.png" alt="">
+        </div>
+    </section>
+<style>
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #202835;
+        color: whitesmoke;
+        padding: 1rem;
+    }
+    section h1{
+        padding: 1rem;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 5rem;
+    }
+    section p{
+        padding: 1rem;
+    }
+    .face{
+        padding-right: 0.5rem;
+        margin-left: 5rem;
+    }
+
+    /* RODAPÉ MOBILE */
+    
+    @media (max-width: 991.98px){
+        section{
+        display: flex;
+        flex-direction: column;
+    }
+    section h1{
+        margin: 0 auto;
+    }
+    section p {
+    padding: 1rem;
+    text-align: center;
+}
+    section div{
+        display: flex;
+        justify-content: center;
+    }
+    .face{
+        margin-left: 0;
+    }
+    }
+</style>
+</body>
+</html>
